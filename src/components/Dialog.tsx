@@ -16,8 +16,11 @@ export const Dialog: React.FC<DialogProps> = ({
       {/* Main dialog box */}
       <div className="relative bg-white rounded-2xl shadow-lg p-6 w-[309px] max-sm:w-full">
         <p 
-          className="flex w-[275px] h-[171px] flex-col justify-center shrink-0 text-[#0A3149] text-xl font-[590] leading-[26px] tracking-[-0.27px] max-sm:w-full max-sm:text-lg max-sm:leading-6" 
-          style={{ fontFamily: '"SF Pro"' }}
+          className="flex w-[275px] h-[171px] flex-col justify-center shrink-0 text-[#0A3149] text-[20px] font-[590] leading-[26px] tracking-[-0.27px] max-sm:w-full max-sm:text-lg max-sm:leading-6" 
+          style={{ 
+            fontFamily: '"SF Pro"',
+            fontFeatureSettings: "'liga' off, 'clig' off"
+          }}
         >
           {message}
         </p>
