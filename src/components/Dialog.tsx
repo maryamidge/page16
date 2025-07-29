@@ -9,7 +9,7 @@ export const Dialog: React.FC<DialogProps> = ({
 }) => {
   return (
     <section 
-      className="absolute left-[59px] top-[157px] max-md:left-[calc(50%_-_154.5px)] max-sm:w-[calc(100%_-_40px)] max-sm:left-5"
+      className="absolute left-[59px] top-[120px] max-md:left-[calc(50%_-_154.5px)] max-sm:w-[calc(100%_-_40px)] max-sm:left-5"
       role="dialog"
       aria-label="Profile creation guidance"
     >
@@ -23,8 +23,8 @@ export const Dialog: React.FC<DialogProps> = ({
         </p>
         
         {/* Speech bubble pointer */}
-        <div className="absolute bottom-[-8px] left-1/2 transform -translate-x-1/2">
-          <div className="w-0 h-0 border-l-[8px] border-r-[8px] border-t-[8px] border-l-transparent border-r-transparent border-t-white"></div>
+        <div className="absolute bottom-[-12px] left-[40px]">
+          <div className="w-0 h-0 border-l-[12px] border-r-[12px] border-t-[12px] border-l-transparent border-r-transparent border-t-white drop-shadow-md"></div>
         </div>
       </div>
     </section>
