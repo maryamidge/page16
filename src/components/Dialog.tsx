@@ -29,7 +29,7 @@ export const Dialog: React.FC<DialogProps> = ({
       </div>
       <div className="flex h-[182px] justify-center items-center shrink-0 self-stretch relative rounded-[9.4px]">
         <div className="flex w-[307px] h-[182px] justify-center items-center relative pt-[5px] pb-1.5 px-4 max-sm:w-[calc(100%_-_32px)]">
-          <p className="w-[275px] h-[171px] shrink-0 text-[#0A3149] text-xl font-[590] leading-[26px] tracking-[-0.27px] absolute left-4 top-[5px] max-sm:w-[calc(100%_-_32px)] max-sm:text-lg max-sm:leading-6">
+          <p className="flex w-[275px] h-[171px] flex-col justify-center shrink-0 text-[#0A3149] text-xl font-[590] leading-[26px] tracking-[-0.27px] absolute left-4 top-[5px] max-sm:w-[calc(100%_-_32px)] max-sm:text-lg max-sm:leading-6" style={{ fontFamily: '"SF Pro"' }}>
             {message}
           </p>
         </div>
